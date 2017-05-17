@@ -1,0 +1,7 @@
+location /tangpoetry/public/ {
+    if (!-e $request_filename){
+        rewrite  ^/tangpoetry/public/(.*)$  /tangpoetry/public/index.php?s=$1  last;
+    }
+    index  index.html index.htm index.php l.php;
+    autoindex  on;
+}

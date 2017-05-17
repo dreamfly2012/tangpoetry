@@ -1,0 +1,279 @@
+/*-----------主体内容-----------*/
+
+body {
+    background-color: #e9dfc7;
+}
+
+.container {
+    padding: 1.5em 1em;
+}
+
+.Content h4 {
+    font-size: 20px;
+    margin: 0 0 1em 0;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    border-bottom: solid 1px #736357
+}
+
+p {
+    text-indent: 2em;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 23px;
+    padding-bottom: 5px;
+}
+
+.page_btn {
+    width: 80%;
+    margin: 0 auto;
+    bottom: 0em;
+    position: absolute;
+}
+
+.btn-prev,
+.btn-next {
+    width: 49%;
+    text-align: center;
+    height: 40px;
+    background: #000;
+    color: #F8F8F8;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+/*-----------主体内容 end-----------*/
+
+
+/*-----------顶部nav-----------*/
+
+.nav-top {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+}
+
+.nav_container {
+    width: 150px;
+    position: relative;
+    margin-left: 8px;
+    line-height: 50px;
+}
+
+.nav_return {
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/left.png);
+    background-size: contain;
+}
+
+.nav_text {
+    position: relative;
+    left: 33px;
+    color: #d5d5d6;
+}
+
+
+/*-----------顶部nav  end-----------*/
+
+
+/*-----------底部导航-----------*/
+
+.nav-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 9999;
+}
+
+.btn-search,
+.btn-mulu,
+.btn_Aa,
+.btn-yejian {
+    width: 22%;
+    display: inline-block;
+    color: #F8F8F8;
+}
+.div_search,
+.mulu,
+.Aa,
+.yejian {
+    width: 32px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.icon_mulu {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../img/mulu.png);
+    background-size: contain;
+}
+.icon_search{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../img/search.png);
+    background-size: contain; 
+}
+
+.icon-Aa {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../img/Aa.png);
+    background-size: contain;
+}
+
+.icon-yejian {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../img/yejian.png);
+    background-size: contain;
+}
+.icon-baitian{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../img/baitian.png);
+    background-size: contain;
+}
+
+.text_search,
+.text_mulu,
+.text_Aa,
+.text_yejian,.text_baitian {
+    position: absolute;
+    top: 23px;
+    font-size: 11px;
+}
+
+
+/*-----------底部导航 end-----------*/
+
+
+/*-----------目录功能--------------*/
+
+.menu_Pop {
+    position: fixed;
+    bottom: 70px;
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    color: #F8F8F8;
+    font-size: 15px;
+    z-index: 10005;
+    text-align: center;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+.menu_Pop ul li a {
+    color: #F8F8F8;
+}
+
+/*---------------搜索功能---------*/
+.search_Pop {
+    position: fixed;
+    bottom: 70px;
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    color: #F8F8F8;
+    font-size: 15px;
+    z-index: 10005;
+    text-align: center;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+#search{
+    margin-top:10px;
+}
+
+.search_Pop li a {
+    color: #F8F8F8;
+}
+
+/*-----------字体功能栏-----------*/
+
+.fontPop {
+    position: fixed;
+    bottom: 70px;
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    color: #F8F8F8;
+    font-size: 15px;
+    z-index: 10005;
+}
+
+.fontSize,
+.fontBk {
+    position: relative;
+    height: 55px;
+    line-height: 55px;
+}
+
+.btnBig,
+.btnSmall {
+    width: 90px;
+    height: 25px;
+    margin: 0 15px;
+    background: none;
+    border: 1px #8c8c8c solid;
+    color: #F8F8F8;
+    border-radius: 15px;
+    z-index: 10006;
+}
+
+.bkColor {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    top: 8px;
+}
+
+.bk-container {
+    display: inline-block;
+    margin: 0 5px;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    border: 1px #8C8C8C solid;
+    border-radius: 15px;
+}
+
+.bk-container-current {
+    position: relative;
+    top: -3px;
+    left: -2px;
+    width: 25px;
+    height: 25px;
+    border: 2px #00A5F6 solid;
+    border-radius: 15px;
+    z-index: 10000;
+}
+
+.bk-container span {
+    display: none;
+    position: absolute;
+    top: 15px;
+    font-size: 12px;
+}
+
+
+/*-----------字体功能栏   end-----------*/
