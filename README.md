@@ -9,13 +9,13 @@ a reader for tangpoetry
 mobile read poetry
 
 
-##clone the source code
+## clone the source code
 
-##composer install 
+## composer install 
 
-##import database/migrations/tang_poetry.sql
+## import database/migrations/tang_poetry.sql
 
-##config the rewrite access the public/index.php
+## config the rewrite access the public/index.php
 
 
 
